@@ -4,14 +4,14 @@ import ActivityButton from "@/components/ActivityButton";
 import StepProgress from "@/components/StepProgress";
 
 const options = [
-  "Avoid tasks",
-  "Excess scrolling",
-  "Isolate",
-  "Overwork",
-  "Talk to someone",
-  "Breathing exercises",
-  "Distract with TV/games",
-  "Not sure",
+  "I avoid tasks when I'm stressed",
+  "I scroll on my phone a lot to distract myself",
+  "I spend time alone to cope",
+  "I throw myself into work when stressed",
+  "I talk to someone about how I feel",
+  "I do breathing exercises to calm down",
+  "I watch TV or play games to distract myself",
+  "I'm not sure how I respond to stress",
 ];
 
 const CopingHabitsScreen = ({ onNext }: { onNext: () => void }) => {
