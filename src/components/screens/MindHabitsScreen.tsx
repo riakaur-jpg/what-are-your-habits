@@ -4,13 +4,13 @@ import ActivityButton from "@/components/ActivityButton";
 import StepProgress from "@/components/StepProgress";
 
 const options = [
-  "Overthinking",
-  "Worst-case imagining",
-  "Harsh self-talk",
-  "Guilt",
-  "Constant worry",
-  "Difficulty relaxing",
-  "Thoughts feel manageable",
+  "I keep overthinking things",
+  "I often imagine the worst-case scenario",
+  "I'm harsh on myself",
+  "I feel guilty about things I've done or didn't do",
+  "I'm constantly worrying",
+  "I find it hard to relax",
+  "My thoughts feel manageable",
 ];
 
 const MindHabitsScreen = ({ onNext }: { onNext: () => void }) => {
